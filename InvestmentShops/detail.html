@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+<body>
+    <div class="box">
+        <!---------头部-------->
+        <div class="head">
+            <ul>
+                <li>
+                    <a href="###" id="logo"></a>
+                </li>
+                <li>
+                    <a href="###" class="_addr"><span class="addr"></span><i>北京</i></a>
+                </li>
+                <li>
+                    <a href="###" class="_user"><span class="user"></span><i>登录</i></a>
+                </li>
+                <li>
+                    <a href="###" class="_read"><span class="read_"></span><i>店址订阅</i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="mine">
+            <div class="my"><span>首页 ></span> <span>朝阳区 ></span> <span>望京 ></span><i>商铺详情</i></div>
+
+        </div>
+        <div class="_detail">
+            <div class="_detailLeft">
+                <img src="images/1.jpg" alt="">
+                <div class="autoShow">
+                    <ul>
+                        <li><img src="images/1.jpg" alt=""></li>
+                        <li><img src="images/1.jpg" alt=""></li>
+                        <li><img src="images/1.jpg" alt=""></li>
+                        <li><img src="images/1.jpg" alt=""></li>
+                        <li><img src="images/1.jpg" alt=""></li>
+                        <li><img src="images/1.jpg" alt=""></li>
+                        <li><img src="images/1.jpg" alt=""></li>
+                        <li><img src="images/1.jpg" alt=""></li>
+                    </ul>
+                    <div class="ll"><</div>
+                    <div class="rr">></div>
+                </div>
+                <div class="_message">
+                    <ul>
+                        <li>商铺基本信息</li>
+                        <li>线上销售分析</li>
+                        <!--<li>经营类型分析</li>-->
+                    </ul>
+                    <div class="mess_three">
+                        <div class="messOne none">
+                            <div class="building">
+                                <p>建筑信息</p>
+                                <div class="_building">
+                                    <div class="bu_one">
+                                        <p>商铺类型 :&nbsp;&nbsp;<i>临街商铺</i></p>
+                                        <p>门头宽度 :&nbsp;&nbsp;<i>2米</i></p>
+                                    </div>
+                                    <div class="bu_two">
+                                        <p>进深 :&nbsp;&nbsp;<i>2米</i></p>
+                                        <p>层高 :&nbsp;&nbsp;<i>/</i></p>
+                                    </div>
+                                    <div class="bu_three">
+                                        <p>所在楼层 :&nbsp;&nbsp;<i>3楼</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rent">
+                                <p>租赁相关</p>
+                                <div class="_rent">
+                                    <div class="re_one">
+                                        <p>租赁状态 :&nbsp;&nbsp;<i>租赁中</i></p>
+                                        <p>剩余租约（月）:&nbsp;&nbsp;<i>3</i></p>
+                                        <p>续约情况 :&nbsp;&nbsp;<i>另签一份</i></p>
+                                    </div>
+                                    <div class="re_two">
+                                        <p>租赁类别 :&nbsp;&nbsp;<i>生意转让</i></p>
+                                        <p>当前租约（年）:&nbsp;&nbsp;<i>3</i></p>
+                                        <p>最长租约（月）:&nbsp;&nbsp;<i>12</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project">
+                                <p>工程条件</p>
+                                <div class="_project">
+                                    <div class="pro"><i></i><p>上水</p></div>
+                                    <div class="pro"><i></i><p>下水</p></div>
+                                    <div class="pro"><i></i><p>380伏</p></div>
+                                    <div class="pro"><i></i><p>煤气罐</p></div>
+                                    <div class="pro"><i></i><p>烟道管</p></div>
+                                    <div class="pro"><i></i><p>排污管道</p></div>
+                                    <div class="pro"><i></i><p>停车位</p></div>
+                                    <div class="pro"><i></i><p>天然气</p></div>
+                                    <div class="pro"><i></i><p>外摆区</p></div>
+                                    <div class="pro"><i></i><p>可明火</p></div>
+                                    <div class="pro"><i></i><p>可办照</p></div>
+                                </div>
+                            </div>
+                            <div class="map">
+                                <p>地图</p>
+                                <div class="_map" id="container" tabindex="0"></div>
+                            </div>
+                        </div>
+                        <div class="messTwo">
+                            <h4>预计每月上线订单数:  <i>1500-4280单</i></h4>
+                            <p>周边同类商家最近半年线上订单总量变化</p>
+                            <div class="tonglei_one tl">
+                                <h6>椒香川菜馆</h6>
+                                <p>上月订单数<i>1500单/月</i></p>
+                                <div class="tong_pic" id="tOne"></div>
+                            </div>
+                            <div class="tonglei_two tl">
+                                <h6>聚宝源老北京火锅</h6>
+                                <p>上月订单数<i>2500单/月</i></p>
+                                <div class="tong_pic" id="tTwo"></div>
+                            </div>
+                        </div>
+                        <!--<div class="messThree none"></div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="_detailRight"></div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=da80f7804959bbd9cb6a88b06b3904a4"></script>
+    <script type="text/javascript">
+            var map = new AMap.Map('container',{
+                resizeEnable: true,
+                zoom: 10,
+                center: [116.397428, 39.90923]
+            })
+    </script>
+    <script src="js/echarts.js"></script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('tOne'));
+
+        // 指定图表的配置项和数据
+        option = {
+//            title: {
+//                text: '折线图堆叠'
+//            },
+            tooltip: {
+                trigger: 'axis'
+            },
+//            legend: {
+//                data:['邮件营销','联盟广告','视频广告','直接访问','搜索引擎']
+//            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+//            toolbox: {
+//                feature: {
+//                    saveAsImage: {}
+//                }
+//            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['12月','1月','2月','3月','4月','5月']
+            },
+            yAxis: {
+                type: 'value',
+                data: ['0单','1000单','2000单','3000单','4000单','5000单']
+            },
+            series: [
+                {
+                    name:'销售',
+                    type:'line',
+                    stack: '总量',
+                    data:[1800, 2000, 4050, 3000, 2509, 5000]
+                }
+            ]
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+</body>
+</html>

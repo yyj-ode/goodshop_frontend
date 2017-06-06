@@ -1,0 +1,297 @@
+.mine{
+    width:100%;
+    height:40px;
+    background: #083680;
+}
+.mine .my{
+    width: 990px;
+    height:40px;
+    margin: 0 auto;
+    color:#f9ae3a;
+    font-size: 14px;
+    line-height: 40px;
+}
+.mine .my i{
+    color:#fff;
+}
+._detail{
+    width: 990px;
+    height:1826px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+._detail ._detailLeft{
+    width: 590px;
+    height: 1866px;
+    /*background: pink;*/
+    float: left;
+}
+._detail ._detailLeft img{
+    width: 590px;
+    height:443px;
+    margin-bottom: 10px;
+}
+._detail ._detailLeft .autoShow{
+    width: 600px;
+    height: 105px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+._detail ._detailLeft .autoShow .ll,._detail ._detailLeft .autoShow .rr{
+    width: 30px;
+    height: 105px;
+    background:#083680;
+    opacity: 0.8;
+    position: absolute;
+    color: #fff;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+}
+._detail ._detailLeft .autoShow .ll{
+    left: 0;
+    top:0;
+}
+._detail ._detailLeft .autoShow .rr{
+    right: 10px;
+    top: 0;
+}
+._detail ._detailLeft .autoShow ul{
+
+}
+._detail ._detailLeft .autoShow img,._detail ._detailLeft .autoShow li{
+    width: 140px;
+    height: 105px;
+}
+._detail ._detailLeft .autoShow li{
+    float: left;
+    margin-right:10px;
+}
+._detail ._detailLeft ._message ul{
+    width: 590px;
+    height: 50px;
+    background: #f5f5f5;
+}
+._detail ._detailLeft ._message li{
+    width: 295px;
+    height: 48px;
+    font-size: 18px;
+    color: #333;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+._detail ._detailLeft ._message>ul>li:hover{
+    color: #083680;
+    border-bottom: 2px solid #083680;
+}
+._detail ._detailLeft .mess_three{
+    width: 590px;
+    height: 1200px;
+    /*background: deepskyblue;*/
+    position: relative;
+}
+._detail ._detailLeft .mess_three .messOne{
+    width: 590px;
+    height:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+._detail ._detailLeft .mess_three .messOne{
+    background: #fff;
+}
+._detail ._detailLeft .mess_three .messTwo{
+    width: 590px;
+    height: 1000px;
+    background: pink;
+}
+._detail ._detailLeft .mess_three .messOne .building{
+    width: 590px;
+    height:100px;
+    background: #fff;
+    margin-top:40px;
+}
+._detail ._detailLeft .mess_three .messOne .building>p{
+    font-size: 20px;
+    color:#333;
+    margin-bottom: 12px;
+    font-weight: 900;
+}
+._detail ._detailLeft .mess_three .messOne .building ._building .bu_one,._detail ._detailLeft .mess_three .messOne .building ._building .bu_two,._detail ._detailLeft .mess_three .messOne .building ._building .bu_three{
+    float:left;
+}
+._detail ._detailLeft .mess_three .messOne .building ._building p{
+    font-size: 16px;
+    color: #666;
+    margin-top: 15px;
+}
+._detail ._detailLeft .mess_three .messOne .building ._building p i{
+    font-size: 16px;
+    color: #333;
+}
+._detail ._detailLeft .mess_three .messOne .building ._building .bu_one{
+    width:250px;
+}
+._detail ._detailLeft .mess_three .messOne .building ._building .bu_two{
+    width:162px;
+}
+._detail ._detailLeft .mess_three .messOne .building ._building .bu_three{
+    width:168px;
+}
+._detail ._detailRight{
+    width: 385px;
+    height: 630px;
+    background: red;
+    float: right;
+}
+._detail ._detailLeft .mess_three .messOne .rent{
+    width: 590px;
+    height:135px;
+    background: #fff;
+    margin-top:40px;
+}
+._detail ._detailLeft .mess_three .messOne .rent>p{
+    font-size: 20px;
+    color:#333;
+    margin-bottom: 12px;
+    font-weight: 900;
+}
+._detail ._detailLeft .mess_three .messOne .rent ._rent .re_one,._detail ._detailLeft .mess_three .messOne .rent ._rent .re_two{
+    float: left;
+}
+._detail ._detailLeft .mess_three .messOne .rent ._rent p{
+    font-size: 16px;
+    color: #666;
+    margin-top: 15px;
+}
+._detail ._detailLeft .mess_three .messOne .rent ._rent p i{
+    font-size: 16px;
+    color: #333;
+}
+._detail ._detailLeft .mess_three .messOne .rent ._rent .re_one{
+    width:250px;
+}
+._detail ._detailLeft .mess_three .messOne .rent ._rent .re_two{
+    width:340px;
+}
+._detail ._detailLeft .mess_three .messOne .project{
+    width: 590px;
+    height:415px;
+    background: #fff;
+    margin-top:40px;
+}
+._detail ._detailLeft .mess_three .messOne .project>p{
+    font-size: 20px;
+    color:#333;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro{
+    float:left;
+    width: 72px;
+    height: 93px;
+    /*background: pink;*/
+    margin:0 37px 37px;
+    text-align: center;
+    color:#083680;
+    font-size: 18px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro i{
+    display: block;
+    width: 70px;
+    height: 56px;
+    margin-bottom: 18px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(1) i{
+    background: url(../images/icondetail.png) no-repeat 8px -70px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(2) i{
+    background: url(../images/icondetail.png) no-repeat -62px -70px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(3) i{
+    background: url(../images/icondetail.png) no-repeat -132px -70px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(4) i{
+    background: url(../images/icondetail.png) no-repeat -196px -70px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(5) i{
+    background: url(../images/icondetail.png) no-repeat -272px -70px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(6) i{
+     background: url(../images/icondetail.png) no-repeat -342px -70px;
+ }
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(7) i{
+    background: url(../images/icondetail.png) no-repeat 10px -140px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(8) i{
+    background: url(../images/icondetail.png) no-repeat -62px -140px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(9) i{
+    background: url(../images/icondetail.png) no-repeat -130px -280px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(9) p,._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(10) p{
+    color:#666;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(10) i{
+    background: url(../images/icondetail.png) no-repeat -195px -280px;
+}
+._detail ._detailLeft .mess_three .messOne .project ._project .pro:nth-of-type(11) i{
+    background: url(../images/icondetail.png) no-repeat -272px -140px;
+}
+._detail ._detailLeft .mess_three .messOne .map{
+    clear: both;
+    width: 590px;
+    height:390px;
+    background: #fff;
+    /*margin-top:40px;*/
+}
+._detail ._detailLeft .mess_three .messOne .map>p{
+    font-size: 20px;
+    color:#333;
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+._detail ._detailLeft .mess_three .messOne .map ._map{
+    width: 590px;
+    height:330px;
+    /*background: green;*/
+}
+._detail ._detailLeft .mess_three .messTwo h4{
+    margin:40px 0;
+    font-size: 20px;
+    color:#333;
+}
+._detail ._detailLeft .mess_three .messTwo h4 i{
+    color:#f9ae3a;
+}
+._detail ._detailLeft .mess_three .messTwo>p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+._detail ._detailLeft .mess_three .messTwo .tl{
+    width: 590px;
+    height: 380px;
+    margin-bottom: 40px;
+}
+._detail ._detailLeft .mess_three .messTwo .tl h6{
+    font-size: 18px;
+    color:#333;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+._detail ._detailLeft .mess_three .messTwo .tl p{
+    font-size: 16px;
+    color:#333;
+    margin-bottom: 40px;
+}
+._detail ._detailLeft .mess_three .messTwo .tl p i{
+    font-size: 16px;
+    color:#f9ae3a;
+}
+._detail ._detailLeft .mess_three .messTwo .tl .tong_pic{
+    width: 590px;
+    height: 288px;
+    background: blue;
+}
